@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "IELTS Examiners Report"
 author: 
-  - Last Name, First Name[^1]
+  - Gandil, Seyfaddin
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -25,43 +25,57 @@ urlcolor: blue
 fontsize: 12pt
 biblio-style: apalike
 ---
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
 ```
 
 <!-- ======================================================================= -->
+
 <!-- ============================== FOOTNOTES ============================== -->
+
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
 
-# Important Information About Midterm
+21080647, [Github Repo](https://github.com/Gandil312740/Midterm.git)
 
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
+**Research Question**
 
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
-
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
+What is the current state of validity of the International English Language Testing System (IELTS) and what are the recent developments and critical perspectives regarding its use as a language proficiency test?
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+IELTS is widely recognized and accepted by academic institutions, employers, and governments around the world. In this report, we analyze a dataset consisting of responses from 51 friends of mine who have taken the IELTS exam. The purpose of this analysis is to explore patterns and trends in the dataset, as well as to gain insights into the factors that may affect an individual's performance on the IELTS exam. The dataset includes information on their personal details, such as:
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
+-   **Name & Surname:** The name and surname of examiners.
+-   **Date of birth:** The examiner's date of birth.
+-   **Sex:** The examiner's gender.
+-   **Nationality:** The examiner's nationality.
+-   **Age, when you took the exam:** Age of the examiner when s/he took the exam.
+-   **Reading score:** The examiner's score for the reading section of the IELTS exam.
+-   **Listening score:** The examiner's score for the listening section of the IELTS exam.
+-   **Speaking score:** The examiner's score for the speaking section of the IELTS exam.
+-   **Writing score:** The examiner's score for the writing section of the IELTS exam.
+-   **Overall band score:** The examiner's overall band score for the IELTS exam.
+-   **CEFR level:** The examiner's Common European Framework of Reference (CEFR) level for English language proficiency
+-   **Whether the exam was useful when they applied to an academic institution or a job:** whether the examiner found the IELTS exam useful when applying to an academic institution or a job.
+
+The International English Language Testing System (IELTS) is a standardized test used to evaluate the English language proficiency of non-native English speakers. It is available in two formats: Academic and General Training. The test is scored on a scale of 0 to 9, with 0 indicating no proficiency and 9 indicating native-like proficiency. There are over 1,100 IELTS test centers in more than 140 countries worldwide, and the test is recognized by over 10,000 organizations globally. Recent developments in IELTS include computer-delivered IELTS, IELTS Indicator, IELTS for UK Visas and Immigration (UKVI), changes to test content, and increased availability of preparation materials.The IELTS test has been criticized for its cultural bias, inaccurate assessment of language ability, high-stakes nature, lack of transparency, and profit-driven enterprise. Critics argue that the test is culturally biased and does not account for the diversity of English language users. It is often used as a high-stakes assessment, leading to anxiety and stress. Research has shown that the IELTS test is a reliable predictor of academic success for non-native English speakers studying in an English as a medium of instruction environment. A study conducted by Liu and colleagues (2019) found that IELTS scores were positively correlated with academic performance for Chinese international students studying in a UK university. Shrestha and colleagues (2019) found that IELTS scores were a good predictor of academic success for Nepalese students studying in a UK university. However, the predictive validity of the test may vary depending on factors such as the academic program and institution, the individual test-taker's background and experience, and the specific demands of the academic environment.
+
+![](images/Overall.band.score.Image.png){width="300"}
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
+new citation for my article @Schoepp2018 or I can type [@Schoepp2018]
 
+new citation for my article @OSullivan2018 or I can type [@OSullivan2018]
 
+new citation for my article @Charge1997 or I can type [@Charge1997]
 
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
-
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
+new citation for my article @Pearson2019 or I can type [@Pearson2019]
 
 \newpage
-# References {#references}
-<div id="refs"></div>
 
+# References {#references}
+
+::: {#refs}
+:::
